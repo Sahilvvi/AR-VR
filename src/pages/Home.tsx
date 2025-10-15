@@ -144,7 +144,7 @@ export default function Home() {
               Trusted by Fortune 500 Companies
             </div>
           </AnimatedSection>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 leading-tight">
             Reimagining Reality
             <br />
             <span className="gradient-text">with AR & VR</span>
@@ -190,7 +190,7 @@ export default function Home() {
           </div>
           <div>
             <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">About Ramestha Infommersive</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 leading-tight">
               Building Tomorrow's
               <span className="gradient-text"> Digital Experiences</span>
             </h2>
@@ -220,7 +220,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">Our Services</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               Enterprise <span className="gradient-text">XR Solutions</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -246,7 +246,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-orbitron font-semibold mb-3">{service.title}</h3>
+                  <h3 className="text-xl font-display font-semibold mb-3">{service.title}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed">{service.desc}</p>
                 </div>
               </AnimatedSection>
@@ -258,7 +258,7 @@ export default function Home() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Industries</div>
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Trusted Across <span className="gradient-text">Multiple Sectors</span>
           </h2>
         </div>
@@ -283,26 +283,26 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">Impact</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               Results That <span className="gradient-text">Matter</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <AnimatedSection delay={0} className="glass rounded-2xl p-10 text-center holographic hover:shadow-[0_0_40px_rgba(0,255,255,0.4)] transition-all duration-300">
               <Award size={48} className="mx-auto mb-6 text-neon-blue" />
-              <div className="text-6xl font-orbitron font-bold text-neon-blue mb-3">{counters.years}+</div>
+              <div className="text-6xl font-display font-bold text-neon-blue mb-3">{counters.years}+</div>
               <div className="text-gray-300 text-lg mb-2">Years of Excellence</div>
               <div className="text-gray-500 text-sm">Leading XR innovation since 2019</div>
             </AnimatedSection>
             <AnimatedSection delay={100} className="glass rounded-2xl p-10 text-center holographic hover:shadow-[0_0_40px_rgba(138,43,226,0.4)] transition-all duration-300">
               <Users size={48} className="mx-auto mb-6 text-neon-violet" />
-              <div className="text-6xl font-orbitron font-bold text-neon-violet mb-3">{counters.clients}+</div>
+              <div className="text-6xl font-display font-bold text-neon-violet mb-3">{counters.clients}+</div>
               <div className="text-gray-300 text-lg mb-2">Enterprise Clients</div>
               <div className="text-gray-500 text-sm">Including 25 Fortune 500 companies</div>
             </AnimatedSection>
             <AnimatedSection delay={200} className="glass rounded-2xl p-10 text-center holographic hover:shadow-[0_0_40px_rgba(0,191,255,0.4)] transition-all duration-300">
               <Briefcase size={48} className="mx-auto mb-6 text-neon-cyan" />
-              <div className="text-6xl font-orbitron font-bold text-neon-cyan mb-3">{counters.projects}+</div>
+              <div className="text-6xl font-display font-bold text-neon-cyan mb-3">{counters.projects}+</div>
               <div className="text-gray-300 text-lg mb-2">Projects Delivered</div>
               <div className="text-gray-500 text-sm">With 98% client satisfaction rate</div>
             </AnimatedSection>
@@ -313,7 +313,7 @@ export default function Home() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">Technology Stack</div>
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Powered by <span className="gradient-text">Industry Leaders</span>
           </h2>
         </div>
@@ -325,7 +325,7 @@ export default function Home() {
               className="glass rounded-xl p-6 hover:holographic transition-all duration-300"
             >
               <div className="flex justify-between items-center mb-3">
-                <span className="font-orbitron font-semibold">{tech.name}</span>
+                <span className="font-display font-semibold">{tech.name}</span>
                 <span className="text-neon-blue text-sm font-bold">{tech.expertise}</span>
               </div>
               <div className="w-full bg-gray-800 rounded-full h-2 overflow-hidden">
@@ -343,7 +343,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Case Studies</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               Featured <span className="gradient-text">Success Stories</span>
             </h2>
           </div>
@@ -366,7 +366,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-orbitron font-semibold mb-2">{project.title}</h3>
+                  <h3 className="text-xl font-display font-semibold mb-2">{project.title}</h3>
                   <p className="text-gray-400 mb-4 text-sm">{project.desc}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-neon-blue text-sm font-bold">{project.stats}</span>
@@ -391,7 +391,7 @@ export default function Home() {
             />
           </div>
           <div className="relative p-12 md:p-16 text-center">
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
               Ready to Build the <span className="gradient-text">Future?</span>
             </h2>
             <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">

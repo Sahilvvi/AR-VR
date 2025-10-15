@@ -164,7 +164,7 @@ export default function Blog() {
               XR Insights • Industry Trends • Expert Analysis
             </div>
           </AnimatedSection>
-          <h1 className="text-5xl md:text-7xl font-orbitron font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
             Immersive Tech
             <br />
             <span className="gradient-text">Knowledge Hub</span>
@@ -178,7 +178,7 @@ export default function Blog() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-12">
           <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">Featured Article</div>
-          <h2 className="text-3xl md:text-4xl font-orbitron font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
             <span className="gradient-text">Editor's Pick</span>
           </h2>
         </div>
@@ -196,7 +196,7 @@ export default function Blog() {
               </div>
             </div>
             <div className="p-8 md:p-12 flex flex-col justify-center">
-              <h3 className="text-3xl md:text-4xl font-orbitron font-bold mb-4 leading-tight">
+              <h3 className="text-3xl md:text-4xl font-display font-bold mb-4 leading-tight">
                 {featuredPost.title}
               </h3>
               <p className="text-gray-300 text-lg mb-6 leading-relaxed">{featuredPost.excerpt}</p>
@@ -229,7 +229,7 @@ export default function Blog() {
       <AnimatedSection className="py-24 bg-gradient-to-b from-transparent via-black/50 to-transparent">
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between mb-12 flex-wrap gap-4">
-            <h2 className="text-3xl font-orbitron font-bold">
+            <h2 className="text-3xl font-display font-bold">
               Latest <span className="gradient-text">Articles</span>
             </h2>
             <div className="flex items-center gap-3 flex-wrap">
@@ -273,7 +273,7 @@ export default function Blog() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-orbitron font-semibold mb-3 leading-tight">
+                  <h3 className="text-xl font-display font-semibold mb-3 leading-tight">
                     {article.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-4 leading-relaxed">{article.excerpt}</p>
@@ -305,7 +305,7 @@ export default function Blog() {
           <div className="lg:col-span-2">
             <div className="text-center mb-12">
               <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Industry Insights</div>
-              <h2 className="text-3xl md:text-4xl font-orbitron font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
                 Deep Dive <span className="gradient-text">Content</span>
               </h2>
             </div>
@@ -340,7 +340,7 @@ export default function Blog() {
                       <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50"></div>
                     </div>
                     <div className="md:col-span-2 p-6 flex flex-col justify-center">
-                      <h3 className="text-2xl font-orbitron font-semibold mb-2">{post.title}</h3>
+                      <h3 className="text-2xl font-display font-semibold mb-2">{post.title}</h3>
                       <p className="text-gray-400 mb-4">{post.desc}</p>
                       <div className="flex items-center gap-4 text-sm text-gray-500">
                         <span className="flex items-center gap-2">
@@ -362,7 +362,7 @@ export default function Blog() {
           <div className="space-y-8">
             <div className="glass rounded-2xl p-8 holographic">
               <BookOpen size={40} className="text-neon-violet mb-4" />
-              <h3 className="text-2xl font-orbitron font-semibold mb-4">Popular Topics</h3>
+              <h3 className="text-2xl font-display font-semibold mb-4">Popular Topics</h3>
               <div className="space-y-3">
                 {popularTopics.map((topic, i) => (
                   <button
@@ -378,7 +378,7 @@ export default function Blog() {
 
             <div className="glass rounded-2xl p-8 holographic">
               <Mail size={40} className="text-neon-blue mb-4" />
-              <h3 className="text-2xl font-orbitron font-semibold mb-3">Subscribe to Newsletter</h3>
+              <h3 className="text-2xl font-display font-semibold mb-3">Subscribe to Newsletter</h3>
               <p className="text-gray-400 mb-6 text-sm">
                 Get the latest XR insights delivered to your inbox weekly
               </p>
@@ -397,7 +397,7 @@ export default function Blog() {
 
             <div className="glass rounded-2xl p-8 holographic">
               <Share2 size={40} className="text-neon-cyan mb-4" />
-              <h3 className="text-2xl font-orbitron font-semibold mb-4">Follow Us</h3>
+              <h3 className="text-2xl font-display font-semibold mb-4">Follow Us</h3>
               <p className="text-gray-400 mb-6 text-sm">
                 Stay connected on social media
               </p>
@@ -431,7 +431,7 @@ export default function Blog() {
           </div>
           <div className="relative p-12 md:p-16 text-center">
             <Sparkles size={64} className="mx-auto mb-6 text-neon-violet animate-pulse-glow" />
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
               Share Your <span className="gradient-text">XR Story</span>
             </h2>
             <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">

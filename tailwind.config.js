@@ -11,8 +11,8 @@ export default {
         }
       },
       fontFamily: {
-        orbitron: ['Orbitron', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif'],
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        display: ['Space Grotesk', 'Inter', 'sans-serif'],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',

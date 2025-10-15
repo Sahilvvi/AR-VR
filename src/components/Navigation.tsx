@@ -29,9 +29,9 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 bg-gradient-to-br from-neon-blue to-neon-violet rounded-lg flex items-center justify-center glow">
-            <span className="text-xl font-orbitron font-bold">RI</span>
+            <span className="text-xl font-display font-bold">RI</span>
           </div>
-          <span className="text-lg font-orbitron font-bold gradient-text">RAMESTHA INFOMMERSIVE</span>
+          <span className="text-lg font-display font-bold gradient-text">RAMESTHA INFOMMERSIVE</span>
         </div>
 
         <div className="hidden md:flex items-center space-x-8">

@@ -16,9 +16,9 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-neon-blue to-neon-violet rounded-lg flex items-center justify-center glow">
-                <span className="text-lg font-orbitron font-bold">RI</span>
+                <span className="text-lg font-display font-bold">RI</span>
               </div>
-              <span className="text-sm font-orbitron font-bold gradient-text">RAMESTHA<br/>INFOMMERSIVE</span>
+              <span className="text-sm font-display font-bold gradient-text">RAMESTHA<br/>INFOMMERSIVE</span>
             </div>
             <p className="text-gray-400 mb-6">
               Building the future of immersive experiences through cutting-edge AR, VR, and Mixed Reality technologies.
@@ -43,7 +43,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="text-lg font-orbitron font-semibold mb-4 text-neon-blue">Company</h3>
+            <h3 className="text-lg font-display font-semibold mb-4 text-neon-blue">Company</h3>
             <ul className="space-y-3">
               {['Home', 'About', 'Projects', 'Blog', 'Contact'].map((item) => (
                 <li key={item}>
@@ -59,7 +59,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="text-lg font-orbitron font-semibold mb-4 text-neon-violet">Services</h3>
+            <h3 className="text-lg font-display font-semibold mb-4 text-neon-violet">Services</h3>
             <ul className="space-y-3 text-gray-400">
               <li className="hover:text-neon-violet transition-colors cursor-pointer">AR Development</li>
               <li className="hover:text-neon-violet transition-colors cursor-pointer">VR Training</li>
@@ -70,7 +70,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
 
           <div>
-            <h3 className="text-lg font-orbitron font-semibold mb-4 text-neon-cyan">Contact Us</h3>
+            <h3 className="text-lg font-display font-semibold mb-4 text-neon-cyan">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin size={20} className="text-neon-cyan mt-1 flex-shrink-0" />
