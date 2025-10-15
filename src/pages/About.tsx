@@ -88,7 +88,7 @@ export default function About() {
               Since 2019 • 50+ Team Members • Global Presence
             </div>
           </AnimatedSection>
-          <h1 className="text-5xl md:text-7xl font-orbitron font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
             Building the Future
             <br />
             <span className="gradient-text">of Immersive Tech</span>
@@ -105,7 +105,7 @@ export default function About() {
           {stats.map((stat, index) => (
             <div key={index} className="glass rounded-2xl p-6 text-center hover:holographic transition-all duration-300">
               <div className="text-neon-blue mb-3 flex justify-center">{stat.icon}</div>
-              <div className="text-4xl font-orbitron font-bold gradient-text mb-2">{stat.value}</div>
+              <div className="text-4xl font-display font-bold gradient-text mb-2">{stat.value}</div>
               <div className="text-gray-400 text-sm">{stat.label}</div>
             </div>
           ))}
@@ -114,7 +114,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Our Mission</div>
-            <h2 className="text-4xl font-orbitron font-bold mb-6 leading-tight">
+            <h2 className="text-4xl font-display font-bold mb-6 leading-tight">
               Democratizing <span className="gradient-text">Immersive Technology</span>
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -151,7 +151,7 @@ export default function About() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">Our Story</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               The <span className="gradient-text">Journey</span>
             </h2>
           </div>
@@ -166,7 +166,7 @@ export default function About() {
                 >
                   <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
                     <div className="glass rounded-xl p-6 hover:holographic transition-all duration-300">
-                      <div className="text-2xl font-orbitron font-bold text-neon-blue mb-2">{item.year}</div>
+                      <div className="text-2xl font-display font-bold text-neon-blue mb-2">{item.year}</div>
                       <h3 className="text-xl font-semibold mb-2">{item.event}</h3>
                       <p className="text-gray-400 text-sm">{item.desc}</p>
                     </div>
@@ -183,7 +183,7 @@ export default function About() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">Leadership</div>
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Meet Our <span className="gradient-text">Expert Team</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -206,7 +206,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
               </div>
               <div className="p-6 text-center">
-                <h3 className="text-xl font-orbitron font-semibold mb-1">{member.name}</h3>
+                <h3 className="text-xl font-display font-semibold mb-1">{member.name}</h3>
                 <p className="text-neon-blue text-sm mb-2">{member.role}</p>
                 <p className="text-gray-500 text-xs">{member.exp}</p>
               </div>
@@ -219,7 +219,7 @@ export default function About() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Core Values</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               What <span className="gradient-text">Drives Us</span>
             </h2>
           </div>
@@ -231,7 +231,7 @@ export default function About() {
                 className="glass rounded-2xl p-8 hover:holographic transition-all duration-500 text-center"
               >
                 <div className="text-neon-violet mb-4 flex justify-center">{value.icon}</div>
-                <h3 className="text-xl font-orbitron font-semibold mb-3">{value.title}</h3>
+                <h3 className="text-xl font-display font-semibold mb-3">{value.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">{value.desc}</p>
               </AnimatedSection>
             ))}
@@ -242,7 +242,7 @@ export default function About() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">Recognition</div>
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Award-Winning <span className="gradient-text">Excellence</span>
           </h2>
         </div>
@@ -274,7 +274,7 @@ export default function About() {
           </div>
           <div className="relative p-12 md:p-16 text-center">
             <Zap size={64} className="mx-auto mb-6 text-neon-blue animate-pulse-glow" />
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
               Join Our <span className="gradient-text">Mission</span>
             </h2>
             <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">

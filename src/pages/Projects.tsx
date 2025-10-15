@@ -171,7 +171,7 @@ export default function Projects() {
               300+ Projects Delivered • 98% Success Rate
             </div>
           </AnimatedSection>
-          <h1 className="text-5xl md:text-7xl font-orbitron font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
             Portfolio of
             <br />
             <span className="gradient-text">Immersive Excellence</span>
@@ -222,7 +222,7 @@ export default function Projects() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-orbitron font-semibold mb-3">{project.title}</h3>
+                <h3 className="text-xl font-display font-semibold mb-3">{project.title}</h3>
                 <p className="text-gray-400 mb-4 text-sm leading-relaxed">{project.desc}</p>
                 <button className={`flex items-center gap-2 text-${project.color} hover:text-neon-cyan transition-colors group-hover:gap-3 duration-300 font-semibold`}>
                   View Case Study <ArrowRight size={16} />
@@ -237,7 +237,7 @@ export default function Projects() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">Success Metrics</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               Proven <span className="gradient-text">Impact</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -259,7 +259,7 @@ export default function Projects() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                    <div className="text-6xl font-orbitron font-bold gradient-text mb-2">{study.metric}</div>
+                    <div className="text-6xl font-display font-bold gradient-text mb-2">{study.metric}</div>
                     <div className="text-lg font-semibold mb-1">{study.description}</div>
                     <div className="text-neon-cyan text-sm">{study.title}</div>
                   </div>
@@ -282,7 +282,7 @@ export default function Projects() {
           </div>
           <div>
             <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">AR Solutions</div>
-            <h2 className="text-4xl font-orbitron font-bold mb-6 leading-tight">
+            <h2 className="text-4xl font-display font-bold mb-6 leading-tight">
               Augmented Reality
               <br />
               <span className="gradient-text">That Transforms</span>
@@ -313,7 +313,7 @@ export default function Projects() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">VR Experiences</div>
-              <h2 className="text-4xl font-orbitron font-bold mb-6 leading-tight">
+              <h2 className="text-4xl font-display font-bold mb-6 leading-tight">
                 Virtual Reality
                 <br />
                 <span className="gradient-text">Reimagined</span>
@@ -330,7 +330,7 @@ export default function Projects() {
                   { label: 'WebVR', value: '88%' },
                 ].map((platform, i) => (
                   <div key={i} className="glass rounded-xl p-4">
-                    <div className="text-2xl font-orbitron font-bold gradient-text mb-1">{platform.value}</div>
+                    <div className="text-2xl font-display font-bold gradient-text mb-1">{platform.value}</div>
                     <div className="text-sm text-gray-400">{platform.label}</div>
                   </div>
                 ))}
@@ -351,7 +351,7 @@ export default function Projects() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">Metaverse</div>
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Building Virtual <span className="gradient-text">Worlds</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -390,7 +390,7 @@ export default function Projects() {
               ].map((feature, i) => (
                 <div key={i} className="glass rounded-2xl p-6 text-center hover:holographic transition-all duration-300">
                   <div className={`text-${feature.color} mb-4 flex justify-center`}>{feature.icon}</div>
-                  <h3 className="text-xl font-orbitron font-semibold mb-2">{feature.title}</h3>
+                  <h3 className="text-xl font-display font-semibold mb-2">{feature.title}</h3>
                   <p className="text-gray-400 text-sm">{feature.desc}</p>
                 </div>
               ))}
@@ -403,7 +403,7 @@ export default function Projects() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Client Testimonials</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               What Our <span className="gradient-text">Clients Say</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -455,7 +455,7 @@ export default function Projects() {
           </div>
           <div className="relative p-12 md:p-16 text-center">
             <TrendingUp size={64} className="mx-auto mb-6 text-neon-violet animate-pulse-glow" />
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
               Ready to Create <span className="gradient-text">Something Amazing?</span>
             </h2>
             <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">

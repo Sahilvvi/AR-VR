@@ -161,7 +161,7 @@ export default function Contact() {
               Get in Touch • Free Consultation • 24/7 Support
             </div>
           </AnimatedSection>
-          <h1 className="text-5xl md:text-7xl font-orbitron font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
             Let's Build the
             <br />
             <span className="gradient-text">Future Together</span>
@@ -176,7 +176,7 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
             <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">Send Us a Message</div>
-            <h2 className="text-4xl font-orbitron font-bold mb-6 leading-tight">
+            <h2 className="text-4xl font-display font-bold mb-6 leading-tight">
               Start Your <span className="gradient-text">XR Journey</span>
             </h2>
             <p className="text-gray-400 mb-8 leading-relaxed">
@@ -298,7 +298,7 @@ export default function Contact() {
               </div>
               <div className="relative p-8">
                 <Clock size={40} className="text-neon-violet mb-4" />
-                <h3 className="text-2xl font-orbitron font-semibold mb-4">Business Hours</h3>
+                <h3 className="text-2xl font-display font-semibold mb-4">Business Hours</h3>
                 <div className="space-y-3 text-gray-300">
                   <div className="flex justify-between items-center">
                     <span>Monday - Friday</span>
@@ -322,7 +322,7 @@ export default function Contact() {
 
             <div className="glass rounded-2xl p-8 hover:holographic transition-all duration-300">
               <MapPin size={40} className="text-neon-cyan mb-4" />
-              <h3 className="text-2xl font-orbitron font-semibold mb-4">Headquarters</h3>
+              <h3 className="text-2xl font-display font-semibold mb-4">Headquarters</h3>
               <p className="text-gray-300 leading-relaxed">
                 123 Innovation Drive, Suite 200
                 <br />
@@ -334,7 +334,7 @@ export default function Contact() {
 
             <div className="glass rounded-2xl p-8 hover:holographic transition-all duration-300">
               <Globe size={40} className="text-neon-blue mb-4" />
-              <h3 className="text-2xl font-orbitron font-semibold mb-4">Get In Touch</h3>
+              <h3 className="text-2xl font-display font-semibold mb-4">Get In Touch</h3>
               <div className="space-y-4 text-gray-300">
                 <a href="mailto:hello@ramesthainfommersive.com" className="flex items-center gap-3 hover:text-neon-blue transition-colors group">
                   <Mail size={20} className="text-neon-blue flex-shrink-0" />
@@ -358,7 +358,7 @@ export default function Contact() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">Global Offices</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               We're <span className="gradient-text">Worldwide</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -380,7 +380,7 @@ export default function Contact() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
-                    <h3 className="text-2xl font-orbitron font-bold">{location.city}</h3>
+                    <h3 className="text-2xl font-display font-bold">{location.city}</h3>
                     <p className="text-neon-cyan text-sm">{location.country}</p>
                   </div>
                 </div>
@@ -403,7 +403,7 @@ export default function Contact() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="text-neon-cyan text-sm font-bold mb-4 tracking-wider uppercase">Contact Options</div>
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Choose Your <span className="gradient-text">Preferred Method</span>
           </h2>
         </div>
@@ -417,7 +417,7 @@ export default function Contact() {
               <div className={`text-${option.color} mb-4 flex justify-center group-hover:animate-pulse-glow`}>
                 {option.icon}
               </div>
-              <h3 className="text-2xl font-orbitron font-semibold mb-2">{option.title}</h3>
+              <h3 className="text-2xl font-display font-semibold mb-2">{option.title}</h3>
               <p className="text-gray-400 mb-2">{option.desc}</p>
               <p className="text-sm text-neon-cyan mb-6">{option.available}</p>
               <button className="px-6 py-3 bg-gradient-to-r from-neon-blue to-neon-cyan rounded-lg font-semibold hover:shadow-[0_0_20px_rgba(0,255,255,0.5)] transition-all duration-300">
@@ -433,7 +433,7 @@ export default function Contact() {
           <div className="text-center mb-16">
             <HelpCircle size={64} className="mx-auto mb-6 text-neon-violet animate-pulse-glow" />
             <div className="text-neon-blue text-sm font-bold mb-4 tracking-wider uppercase">FAQs</div>
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-4">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
               Frequently Asked <span className="gradient-text">Questions</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -451,7 +451,7 @@ export default function Contact() {
                   onClick={() => setExpandedFaq(expandedFaq === index ? null : index)}
                   className="w-full px-8 py-6 flex items-center justify-between text-left group"
                 >
-                  <span className="font-orbitron font-semibold text-lg pr-4">{faq.question}</span>
+                  <span className="font-display font-semibold text-lg pr-4">{faq.question}</span>
                   <ChevronDown
                     size={24}
                     className={`text-neon-blue transition-transform duration-300 flex-shrink-0 ${
@@ -473,7 +473,7 @@ export default function Contact() {
       <AnimatedSection className="py-24 container mx-auto px-6">
         <div className="text-center mb-12">
           <div className="text-neon-violet text-sm font-bold mb-4 tracking-wider uppercase">Stay Connected</div>
-          <h2 className="text-4xl font-orbitron font-bold mb-4">
+          <h2 className="text-4xl font-display font-bold mb-4">
             Follow Our <span className="gradient-text">Journey</span>
           </h2>
           <p className="text-gray-400 text-lg mb-8">
@@ -504,7 +504,7 @@ export default function Contact() {
           </div>
           <div className="relative p-12 md:p-16 text-center">
             <Calendar size={64} className="mx-auto mb-6 text-neon-blue animate-pulse-glow" />
-            <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
               Book a Free <span className="gradient-text">Consultation</span>
             </h2>
             <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">
